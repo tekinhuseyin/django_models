@@ -19,6 +19,7 @@ class Student(models.Model):
     def __str__(self):
         return f"{self.first_name} - {self.last_name}"
     
+    
     class Meta:
         ordering=["-first_name"]
         verbose_name_plural="ögrenciler"
